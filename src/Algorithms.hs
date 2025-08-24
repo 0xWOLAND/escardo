@@ -7,7 +7,7 @@ import Data.Typeable (Typeable)
 import System.IO.Unsafe (unsafePerformIO)
 import System.Random
 
-type Oracle = Int -> Bool -- This is over the Cantor space
+type Oracle = Int -> Bool -- This is over the Cantor set
 type Pred = Oracle -> Bool
 type Prefix = IntMap Bool
 
