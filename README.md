@@ -9,7 +9,7 @@ cabal build
 cabal run escardo       # run examples
 cabal run benchmark     # run benchmarks
 ```
-Variants: 
-    - `sme`: syntactic modulus extraction
-    - `escardo`: the normal Escardo exhaustive deterministic search 
-    - `prob`: my probabilistic variant of Escardo search
+#### cli options: 
+- `sme`: syntactic modulus extraction
+- `escardo`: the normal Escardo exhaustive deterministic search 
+- `prob`: my probabilistic variant of Escardo search
