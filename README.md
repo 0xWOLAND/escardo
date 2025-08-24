@@ -13,3 +13,18 @@ cabal run benchmark     # run benchmarks
 - `sme`: syntactic modulus extraction
 - `escardo`: the normal Escardo exhaustive deterministic search 
 - `prob`: my probabilistic variant of Escardo search
+
+### Benchmarks
+
+on my 2024 m4 macbook pro: 
+
+Algorithm | Predicate | Time (s) | Result
+----------|-----------|----------|-------
+Escardo   | simple    | 0.001359 | Found
+Prob-1K   | simple    | 0.000680 | 0.639
+Escardo   | complex   | 0.000002 | Found
+Prob-1K   | complex   | 0.000001 | 0.533
+Escardo   | deep      | 0.000002 | Found
+Prob-1K   | deep      | 0.000000 | 0.532
+Escardo   | superComplex | 0.000003 | Found
+Prob-1K   | superComplex | 0.000000 | 0.862
